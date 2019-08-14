@@ -1,0 +1,82 @@
+body{
+    display:relative;
+    
+  
+}
+#discription{
+    width:100%;
+  height :4rem;
+  background-color:white;
+    
+}
+#container{
+    width: 41%;
+    margin-left: 16%;
+    border-width: 2px;
+    border-color: grey;
+    border-style:dashed;
+
+
+}
+#header{
+    color:gray;
+    text-align: center;
+}
+#category{
+height:4rem;
+width: 100%;
+border:0px;
+
+}
+#dates{
+    width:100%;
+    height:4rem;
+    border:0px;
+   
+}
+#category-date{
+   
+    display: flex;
+
+}
+.btn{
+    width: 13rem;
+    height:3rem;
+}
+.cat{
+    display: inline-block;
+    width: 85px;
+    height: 39px;
+    background-color: violet;
+    color: white;
+    margin-left: 71%;
+    text-align:center;
+    margin-top:-8px;
+    padding-top: 6px;
+}
+.tasks-container{
+    border-top: 0.5px;
+    border-left: 0px;
+    border-bottom:0.5px;
+    border-right:0px;
+
+    border-style: solid;
+    border-color:lightgrey;
+    height:4rem;
+    width:100%;
+}
+.dis{
+display:inline-block;
+width:70%;
+
+
+margin-top:-8px;
+padding-top: 6px;
+}
+
+#btn-2{
+    position:absolute;
+    left: 480px;
+    top: 234px;
+
+}
