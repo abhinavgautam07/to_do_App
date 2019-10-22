@@ -1,14 +1,14 @@
 const mongoose=require('mongoose');
 const listSchema=new mongoose.Schema({
-category : {
+category : { //category refers to the type of the work
     type : String,
     required:true
 },
-discription :{
+discription :{  //details of the work
     type : String,
     required : true,
 },
- date:{
+ date:{ //date and time for the work
      type:Date,
      required: true
  }
